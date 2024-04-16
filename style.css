@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+body{
+    background-image:url(images/password.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+h1{
+    color: rgb(7, 21, 61);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+}
+.container{
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    margin:20vh auto;
+    
+}
+.display{
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   padding-top: 30px;
+   
+}
+.display input{
+      width:250px;
+      padding: 10px;
+      font-size: 20px;
+      color: blueviolet;
+      border-style: none;
+}
+.display img{
+    cursor:pointer;
+}
+.btn{
+    width:13%;
+    display: block;
+    padding:10px;
+    margin:20px 80vh;
+    background-color: rgb(63, 4, 35);
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    cursor: pointer;
+    }
+    .btn:hover{
+        background-color: aqua;
+        color: black;
+    }
